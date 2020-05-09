@@ -12,7 +12,12 @@
 
 $english = array(
 	'super_dashboard:title' => "Metro Dashboard",
-	
+    
+	'super_dashboard:title:files' => "My files",        
+        'super_dashboard:title:settings' => "My settings",
+        'super_dashboard:title:messages' => "Mail",
+        'super_dashboard:title:profile' => "Edit profile",
+        'super_dashboard:title:' => "",
 );
 		
 add_translation("en", $english);

@@ -22,7 +22,7 @@ if(elgg_is_active_plugin(messages))
 ?>
 <a class="box" href="<?php echo elgg_get_site_url(); ?>messages/inbox/<?php  echo $user->username; ?>">
 
-<span>Mail</span>
+<span><?php echo elgg_echo('super_dashboard:title:messages'); ?></span>
 <span class="super-dashboard-elgg-icon fa fa-inbox"></span>
 </a>
 
@@ -37,13 +37,13 @@ if(elgg_is_active_plugin(messages))
 
 
 <a class="box" href="<?php echo elgg_get_site_url(); ?>settings/user/<?php echo $user->username; ?>" style="background: #6b6b6b;">
-<span>My Settings</span>
+<span><?php echo elgg_echo('super_dashboard:title:settings'); ?></span>
 <span class="super-dashboard-elgg-icon fa fa-cogs"></span>
 </a>
 
 
 <a class="box" href="<?php echo elgg_get_site_url(); ?>profile/<?php echo $user->username; ?>/edit" style="background: #43b51f;">
-<span>Edit Profile</span>
+<span><?php echo elgg_echo('super_dashboard:title:profile'); ?></span>
  
     <span class="super-dashboard-elgg-icon fa fa-address-card"></span>
             
@@ -191,7 +191,7 @@ if(elgg_is_active_plugin(file))
 ?>
 
                             <a class="box" href="<?php echo elgg_get_site_url(); ?>file/owner/<?php echo $user->username; ?>" style="background: #43b51f;">
-<span>Files</span>
+<span><?php echo elgg_echo('super_dashboard:title:files'); ?></span>
  
     <span class="super-dashboard-elgg-icon fa fa-file-image-o"></span>
             
